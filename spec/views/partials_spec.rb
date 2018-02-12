@@ -36,7 +36,6 @@ describe "the programmers index page" do
   it "uses shorthand syntax for rendering the collection of programmers" do
     expect(programmers_index).to include("<%= render @programmers %>")
   end
-end
 
 # BONUS: Create a partial that renders a single attribute of a programmer
 
